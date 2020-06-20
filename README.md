@@ -9,6 +9,17 @@ develop.sh will create you a shell in the build container with the go and funcub
 
 # **Raspberry Pi based FUNcube Telemetry Receiver**
 
+To configure a Raspberry Pi to run this telemetry decoder, prepare a fresh SD card image of Raspberry Pi OS and ensure Docker is correctly installed.
+
+To install Docker, at a command prompt, type the following 
+
+	curl -sSL https://get.docker.com | sh
+
+	sudo systemctl enable docker
+
+	sudo usermod -aG docker pi
+
+reboot the Pi with “sudo reboot”
 
 
 To create the configuration files, type the following at a command prompt
